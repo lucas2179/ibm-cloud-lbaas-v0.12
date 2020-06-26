@@ -2,7 +2,7 @@ resource "ibm_lbaas" "lbaas" {
   name        = "lbaas-cguarany3"
   description = "created-by-schematics"
   type        = "PRIVATE"
-  subnets     = [2088037]
+  subnets     = [1305801]
 
   protocols {
     frontend_protocol     = "HTTP"
